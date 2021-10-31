@@ -53,6 +53,7 @@ const Homepage: React.SFC<HomepageProps> = () => {
 
   useEffect(() => {
     startTimer();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
